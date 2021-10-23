@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+    <script src="../js/array.js"></script>
+    <link rel="stylesheet" href="../css/array.css">
+</head>
+<body>
+    <div id="regras">
+        <h1>Regras</h1>
+        <p>1ª Regra - Cada linha deve conter os números de 1 a 9, sem repetições</p>
+        <p>2ª Regra - Os números de 1 a 9 apenas podem estar presentes uma vez por coluna</p>
+        <p>3ª Regra - Cada dígito apenas pode estar presente uma vez por grupo</p>
+        <button onclick="start()" class="start">Start</button>
+
+    </div>
+    <div id="tabela-principal">
+        <h1 id="titulo">SUDOKU</h1>
+        <div class="cron" >
+            <h1 id="watch">00:00:00</h1>
+            <button class="btn btnStart" onclick="startCron()">Iniciar</button>
+            <button class="btn btnPause" onclick="pauseCron()">Pausar</button>
+            <button class="btn btnStop" onclick="stopCron()">Parar</button>
+        </div><br>
+        <table id="main">
+        </table>
+
+    </div>
+    
+</body>
+</html>

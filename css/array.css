@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(238, 232, 196);
+}
+input{
+    border-radius: 8px;
+    padding: 10px;
+    width: 8px;
+    height: 8px;
+    text-align: center;
+    border: inset rgb(109, 123, 125);
+    cursor: pointer;
+}
+#main{
+    margin-left: 14%;
+}
+#tabela-principal{
+    background-color: rgb(113, 168, 202);
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 0.5%;
+}
+
+#titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+#regras{
+    background-color:  rgb(113, 168, 202);
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-bottom: 1%;
+}
+.start{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 5px 0 #006000;
+}
+.start:hover{
+    width: 103px;
+    height: 43px;
+}
+.start:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.cron{
+    text-align: center;
+}
+.btn{
+    width: 60px;
+    height: 25px;
+    border: none;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    width: 63px;
+    height: 28px;
+}
+.btn:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.btnStart{
+    background-color:green;
+    box-shadow: 0 5px 0 #025302;
+}
+.btnPause{
+    background-color:rgb(59, 56, 56);
+    box-shadow: 0 5px 0 rgb(22, 21, 21);
+}
+.btnStop{
+    background-color:red;
+    box-shadow: 0 5px 0 rgb(117, 6, 6);
+}
